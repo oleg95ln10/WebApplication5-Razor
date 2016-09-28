@@ -29,5 +29,7 @@ namespace WebApplication5_Razor.Models
         {
             return new ApplicationDbContext();
         }
+
+        public System.Data.Entity.DbSet<WebApplication5_Razor.Models.Product> Products { get; set; }
     }
 }
